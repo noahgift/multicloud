@@ -1,5 +1,5 @@
 #var=
-def hello(name):
-    print("Hello, my name is %s" % name)
+def speak(name):
+    return "Hello, my name is %s" % name
 
-hello("Bob")
+print(speak("Bob"))
